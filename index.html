@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Components Form</title>
+</head>
+<body>
+    <h1>Input Component Information</h1>
+    <form action="/submit" method="POST">
+        <label for="item-code">Item Code:</label><br>
+        <input type="text" id="item-code" name="item_code" required><br><br>
+        
+        <label for="manufacturer">Manufacturer:</label><br>
+        <input type="text" id="manufacturer" name="manufacturer" required><br><br>
+        
+        <label for="price">Price (USD):</label><br>
+        <input type="number" id="price" name="price" required><br><br>
+        
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
